@@ -15,7 +15,7 @@ spec:
         app: netflix-app
     spec:
       containers:
-      - name: netflix-app
-        image: nasi101/netflix:latest
-        ports:
-        - containerPort: 80
+        - name: netflix-app
+          image: kishgi/netflix:latest
+          ports:
+            - containerPort: 80
